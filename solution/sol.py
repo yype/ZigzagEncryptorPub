@@ -147,6 +147,10 @@ def main():
     for i in range(len(known_bits)-128):
         A.append(known_bits[i:i+128])
     b = known_bits[128:]
+
+    # [Reference] Berlekamp–Massey algorithm can be used to
+    # solve this kind of problem directly. Here we just solve
+    # the set of linear equations using Gaussian elimination.
     x = solve_mat_gf2(A, b, False)
 
     polynomial = bits_to_long(x)
