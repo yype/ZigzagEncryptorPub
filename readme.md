@@ -2,7 +2,7 @@
 
 ### Intro
 
-This is the source code of the reverse engineering challenge `Zigzag Encryptor` in D^3CTF2021.
+This repo has the solution and source code of the reverse engineering challenge `Zigzag Encryptor` in D^3CTF2021.
 
 ### Components
 
